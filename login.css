@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background: linear-gradient(100deg,rgb(249, 60, 164),rgb(249, 223, 31));
+}
+form{
+    height: 270px;
+    width: 300px;
+    background:linear-gradient(120deg,rgb(225, 246, 2),rgb(2, 247, 247));
+    border-radius: 2%;
+    border: 1.5px solid white;
+    /* display: inline-block;
+    justify-content: center;
+    justify-items: center; */
+    text-align: center;
+    /* margin-left: 35%;
+    margin-top: 15%; */
+    
+}
+#Lg1{
+    background:linear-gradient(120deg,rgb(204, 185, 183),rgb(189, 238, 240)) ;
+    display: inline-block ;
+    border-radius: 2px;
+    color: rgb(132, 0, 255);
+  
+}
+button{
+    height: 32px;
+    width: 85px;
+    background-color: aqua;
+    border: 1px solid rgb(10, 38, 214);
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-top: 25%;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+.cf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+input{
+    height: 25px;
+    width: 70%;
+    background-color: rgb(240, 236, 214);
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-top: 15px;
+}
